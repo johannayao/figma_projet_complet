@@ -1,0 +1,946 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html{
+    font-family: 'Mulish Regular', sans-serif;
+}
+body{
+    background-color: gainsboro;
+    /* overflow-x: hidden; */
+    /* height: 100vh;  */
+}
+.logo img{
+    width: 70px;
+}
+body{
+    width: 2040px;
+    /* width: 100%; */
+}
+.navbar{
+     padding: 31px;
+     width: 2048px;
+     /* width: 100%; */
+    background-color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgb(74, 72, 72);
+}
+.navbar a{
+    color: #606a81;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar .nav-link ul {
+    display: flex;
+}
+.navbar .nav-link ul li{
+    margin: 0 30px;
+}
+.btn{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #58ac4e;
+    border-radius: 1px 1px 1px 12px;
+}
+#make{
+    color: white;
+}
+
+.doit{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    width: 2048px;
+    height: 750px;
+    background-color: #e9f9e5;
+    transform: skew(0deg,0.01turn);
+    border-bottom-left-radius: 157px;
+    border-bottom-right-radius: 157px;
+    position: relative;
+    
+}
+.text-body{
+    margin-top: 270px;
+    margin-right: 360px;
+    transform: skew(0deg,-0.01turn);
+    
+}
+.pp2{
+    text-align: center;
+    width: 180px;
+   
+    height: 50px;
+    text-decoration: none;
+    background-color: #21481e;
+    border-radius: 1px 1px 1px 12px;
+    margin-top: 50px;
+}
+.forme1 p{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.forme1{
+    font-size: 36px;
+    opacity: 0.5;
+    margin-top: 28px;
+    font-weight: lighter;
+}
+.forme p{
+    font-size: 53px;
+    font-weight: lighter;
+}
+.pp2 a{
+    text-decoration: none;
+    color: #c2cbc1;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+.cercle1{
+    width: 480px;
+    height: 480px;
+    background-color: #dbf5da;
+    margin-bottom: 100px;
+    margin-left: -30px;
+    transform: skew(0deg, -0.01turn);
+   border-radius: 100% 0% 98% 100% / 98% 6% 100% 100% ; 
+   
+} 
+.cercle2{
+    border-bottom: 30px solid #56b54e;
+    border-top: 30px solid #56b54e;
+    border-left: 30px solid #56b54e;
+    border-right: none;
+    width: 700px;
+    height: 650px;
+    background-color: gray;
+    background: url(image/humberto-chavez-FVh_yqLR9eA-unsplash.jpg);
+    background-size: cover;
+    transform: skew(0deg, -0.01turn);
+    border-radius: 100% 0% 98% 100% / 98% 6% 100% 100%;
+} 
+.fhum img{
+    margin-top: 200Px;
+    /* margin-left: 30px; */
+    position: relative;
+    left: 70px;
+}
+
+.cacher{
+    width: 550px;
+    height: 520px;
+    background-color: #f4fdf5;
+    margin: auto; 
+    border-radius: 0px 0px 0px 70px;
+    margin-top: 80px;
+    position: relative;
+    right: 125px;
+}
+.jeudi{
+    width: 90px;
+    height: 410px;
+    background-color: #5aab4e;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 0px 0px 0px 70px;
+}
+.jeudi img{
+   position: relative;
+   bottom: 50px;
+   right: 20px;
+   border-radius: 0px 0px 0px 90px;
+}
+ .lundi{
+    /* width: 80px;
+    height: 315px;
+    background-color: #02861f;
+    margin-left: 200px;
+    margin-top: 50px; */
+
+    width: 90px;
+    height: 335px;
+    background-color: #5aab4e;
+    margin-left: 330px;
+    margin-top: 55px;
+    
+} 
+.two{
+    width: 310px;
+    height: 410px;
+    background-color: #5aab4e;
+    /* margin-left: 330px;*/
+    margin-top: 55px; 
+    position: relative;
+    right: 80px;
+     background: url(image/meditalent-envia-tu-cv_imagen-medica-sola.jpeg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 0px 0px 0px 90px;
+}
+
+.two img{
+    position: relative;
+    top: 50px;
+    right: 100px;
+    border-radius: 0px 0px 0px 90px;
+ }
+ .supp{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+} 
+.vendredi{
+    position: relative;
+    left: 180px;
+}
+
+ 
+
+/* à coté de l'image */
+
+.samedi{
+    width: 300px;
+    font-size: 35px;
+    height: 90px;
+}
+.semedi p{
+    font-size: 40px;
+    font-weight: lighter;
+   
+}
+.vendredi .samedi{
+    font-weight: lighter;
+    color: #252724;
+    font-size: 39px;
+}
+.je {
+    width: 300px;
+    font-size: 24px;
+    height: 70pxpx;
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #415640;
+}
+
+.mercredi{
+    width: 300px;
+    color: #415640;
+    font-size: 16px;
+    height: 120px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.vendredi{
+    margin-top: 50px;
+}
+.mo{
+    width: 72px;
+    height: 57px;
+    background-color: #58ac4e;
+    border-bottom-left-radius: 15px;
+}
+
+.mi{
+    width: 72px;
+    height: 57px;
+    background-color: #58ac4e;
+    margin-right: 125px;
+    border-bottom-left-radius: 15px;
+}
+.mi img{
+    margin-left: 13px;
+}
+.mo img{
+    margin-left: 13px;
+    margin-top: 4px;
+}
+
+.di{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+   
+}
+
+/* fancy */
+
+.bobi{
+    /* width: 100%; */
+    width: 2048px;
+    height: 500px;
+    background-color: #e9f9e5;
+    border-radius: 11% 89% 0% 10% / 22% 25% 57% 1%;
+     position: relative;
+    top: 120px;
+}
+
+.fi{
+    width: 320px;
+    height: 210px;
+    margin-left: 515px;
+   position: relative;
+   bottom: -70px; 
+   /* background-color: blue; */
+}
+.fi .koko{
+    font-size: 50px;
+    color: #033108;
+   font-weight: lighter;
+}
+
+.fi .kiki{
+    font-size: 23px;
+    margin-top: 20px;
+    color: #4b6046;
+    font-weight: lighter;
+}
+.hu{
+    width: 400px;
+    height: 200px;
+    background-color: green 
+}
+.vue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px; 
+    
+}
+.lu{
+    width: 330px;
+    height: 410px;
+    background-color: #58ac4f;
+    border-bottom-left-radius: 40px;
+}
+.lui{
+    width: 330px;
+    height: 410px;
+    background-color: #58ac4f;
+    margin-left: 17px;
+    border-bottom-left-radius: 40px;
+}
+.luy{
+    width: 330px;
+    height: 410px;
+    background-color: #58ac4f;
+    margin-left: 17px;
+    border-bottom-left-radius: 40px;
+} 
+
+.vovo{
+    
+    width: 180px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #21481e;
+    border-radius: 1px 1px 1px 12px;
+    color: white;
+    border: none;
+     margin-left: 820px;
+    position: relative;
+    top: -130px;
+    left: 15px;
+}  
+
+
+
+
+
+
+.qi{
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    margin-left: 20px;
+    background-color: rgba(134,174,123,0.513);
+}
+span.nathan{
+    display: flex;
+    position: relative;
+    left: 700px;
+    top: 10px;
+    
+}
+.texto{
+    width: 620px;
+    height: 300px;
+    font-size: 25px;
+   color: #4b624b;
+   font-weight: lighter;
+   /* opacity: 0.8; */
+    margin-top: -40px;
+}
+.sous{
+    width: 65px;
+    height: 65px;
+    /* background-color: red; */
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.sous img{
+    border-radius: 100%;
+    
+}
+.momo{
+    position: absolute;
+    left: 750px;
+    margin-top: 490px;
+} 
+.pirigeoir img{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: -85px;
+    opacity: 0.2;
+    z-index: -1; 
+    
+}
+.petite-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    /* background-color: aqua; */
+    border: 3px solid #82ba7f;
+    margin-top: -117px;
+}
+.devant-image{
+    margin-left: 110px;
+    margin-top: -58px;
+}
+.devant-image h2{
+    color: #343653;
+}
+
+.devant-image{
+    margin-top: -75px;
+}
+.devant-image p{
+    margin-top: 10px;
+    color: #acb1b5;
+}
+.card img{
+    border-radius: 50px;
+}
+.petite-image h2{
+    color: #343653;
+}
+.card{
+    position: relative;
+    left: 30px;
+}
+.fleche2 img{
+ margin-left: 20px;
+}
+.douze p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.douze{
+    /* background-color: blue; */
+    width: 200px;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: -28px;
+    text-align: center;
+    display: flex;
+}
+.devant-image p{
+    color: black;
+    opacity: 0.6;
+}
+
+.video{
+    width: 1040px;
+    height: 480Px;
+    background-color: olive;
+    margin-top: 850px;
+   margin-left: 510px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.video .bibi{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* .video img{
+    background-size: cover;
+    background-position: center center;
+} */
+.pepe {
+    margin-left: 910px;  
+   /* position: relative;
+   top: -300px; */
+   margin-top: -300px;
+}
+.nono p{
+    font-size: 52px;
+    text-align: center;
+    margin-top: 270px;
+    color: #3b403a;
+    font-weight: lighter;
+}
+.card{
+    width: 1040px;
+    height: 480Px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.card1 img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin: 10px; 
+     margin-top: 100px; 
+}
+.card{
+    
+}
+
+.card4{
+    width: 350px;
+    height: 400px;
+     /* background-color: red;  */
+    margin-top: 170px;
+}
+.card3{
+    width: 350px;
+    height: 400px;
+    /* background-color: orange;  */
+    margin-left: 10px;
+    margin-top: 170px;
+}
+.card2{
+    width: 350px;
+    height: 400px;
+    /* background-color: green;  */
+    margin-left: 10px;
+    margin-top: 170px;
+}
+.card2 img{
+ margin-bottom: 38px; 
+}
+.lolo{
+    width: 150px;
+    height: 100px;
+    /* background-color: gray; */
+}
+
+.loli .maman {
+    margin-top: 20px;
+    color: #2c4d27;
+    font-size: 17px;
+    font-weight: lighter; 
+} 
+.lola .maman {
+    margin-top: 20px;
+    color: #2c4d27;
+    font-size: 17px;
+    font-weight: lighter;
+} 
+.lolai .maman {
+    margin-top: 20px;
+    color: #2c4d27;
+    font-size: 17px;
+    font-weight: lighter; 
+} 
+.lola .papa{
+font-size: 26px;
+color: black;
+font-weight: lighter;
+margin-top: 20px
+
+}
+.loli .papa{
+    font-size: 26px;
+    /* color: #3b403a; */
+   color: black;
+   font-weight: lighter;
+   margin-top: -20px;
+    }
+    .lolai .papa{
+        font-size: 26px;
+        /* color: #3b403a; */
+        color: black;
+        font-weight: lighter;
+        margin-top: 20px
+        }
+
+
+
+
+.lolo{
+    
+    height: 120px;
+    /* background-color: aqua; */
+
+}
+.lolo h2{
+    margin-top: 20px;
+}
+.lolo p{
+    margin-top: 30Px;
+}
+/* dernière partie */
+.dernier{
+    width: 2040px;
+    height: 1000Px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f9e5;
+    margin-top: 600px;
+    position: relative; 
+    border-top-left-radius: 157px;
+    border-top-right-radius: 357px;
+}
+.haut{
+    width: 1040px;
+    height: 510px;
+    background-color: #58ac4e;
+    position: absolute;
+    top: -350Px;
+    
+    border-bottom-left-radius: 150px;
+}
+.fifi{
+    width: 440px;
+    height: 330px;
+    /* background-color: red; */
+    margin-top: 90px;
+    margin-left: 70px;
+}
+.su{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1);
+}
+.sui{
+    font-size: 27px;
+    margin-top: 30px;
+}
+.fuir{
+    width: 280px;
+    height: 50px;
+    border: 2px solid rgb(213, 207, 207);
+    text-align: center;
+    margin-top: 40px;
+}
+.fuir p{
+    margin-top: 15px;
+}
+.face img{
+    margin-left: 540px;
+    position: relative;
+    bottom: 310px;
+    border-bottom-left-radius: 30%;
+}
+
+.sa{
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: #cee9cf;
+}
+
+.les{
+    width: 1040px;
+    height: 600px;
+    margin-right: 170px;
+    margin-top: 400px;
+     /* background-color: coral;  */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    justify-content: space-between;
+}
+.nin{
+    width: 35px;
+    height: 35px;
+    background-color: #bfe2b9;
+    opacity: .5;
+    border-radius: 50%;
+}
+.nain{
+    width: 35px;
+    height: 35px;
+    background-color: #bfe2b9;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+.no{
+    width: 35px;
+    height: 35px;
+    background-color: #bfe2b9;
+    opacity: 0.5;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+.nain img{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+p.wi{
+    font-size: 50px;
+    color: #081509;
+    
+}
+.rich{
+    margin-top: 60px;
+}
+.mit{
+    display: flex;
+    margin-bottom: 410px;
+    /* margin-left: 20px; */
+    position: relative;
+    left: 235px;
+    top: -43px;
+}
+.health{
+    width: 360px;
+    height: 340px;
+    /* background-color: chartreuse; */
+    margin-left: 220px;
+}
+.bas{
+    width: 347px;
+    height: 50px;
+    background-color: #fefefe;
+    border: none; 
+    border-bottom-left-radius: 20px;
+}
+.health .mar{
+    font-size: 29px;
+    margin-bottom: 60px;
+}
+
+.bos{
+    width: 347px;
+    height: 45px;
+    background-color: #58ac4e;
+    
+     border: none; 
+    margin-bottom: 50px;
+    border-bottom-left-radius: 20px;
+}
+.health button{
+    margin-bottom: 20px;
+}
+
+.kaikai{
+        width: 347px;
+        height: 40px;
+        border: none;   
+        
+}
+.kaikai p{
+ color: #6f866e; 
+}
+.lolo{
+    /* background-color: red; */
+    width: 470px;
+    height: 400px;
+}
+.rich .po{
+    margin-left: 50px;
+    
+}
+.rich{
+    width: 500px;
+    height: 40px;
+    /* background-color: blue; */
+}
+.rich span{
+    color: #3b4c6f;
+    font-size: 19px;
+    /* margin: 30px; */
+}
+.wai{
+    margin-top: -30px;
+    width: 380px;
+    font-size: 50px;
+    height: 70px;
+    /* background-color: blue; */
+}
+.wai p{
+     color:  #2c3529;
+    
+    
+}
+.koko{
+    display: flex;
+}
+
+.koko .nin{
+    margin-left: 15px; 
+}
+.koko{
+    margin-top: 60px;
+}
+.johanna p{
+    margin-top: 530px;
+    width: 700px;
+    height: 60px;
+    margin-left: -1040px;
+    color: #4b6046;
+    
+}
+.bi img{
+    margin-left: 6px;
+    margin-bottom: -8px;
+}
+.bonbon{
+margin-left: 6px;
+color: green;
+}
+.vuvu{
+    margin-left: 10px;
+}
+.johanna{
+    /* width: 500px;
+    height: 50px;
+    background-color: blueviolet; */
+}
+.circle2 img{
+   margin-left: -7px;
+   margin-top: 7px;
+}
+
+
+.circle2{
+     width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #7cba6e;
+    opacity: 0.5;  
+     
+    text-align: center;
+    margin: 0 auto;  
+    margin-left: 9px; 
+    /* border: 7px solid green; */
+    /* margin-top: 40px;
+    margin-top: 10px; */
+    
+}
+ .bonbon span {
+   /* color: #54a347; 
+   color: blue;*/
+ }
+ span .bonbon{
+
+ }
+.circle1{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #7cba6e;
+    /* opacity: 0.5; */
+    text-align: center;
+    
+     margin-left: 9px; 
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+} 
+.trie{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e8f7e6;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* margin-top: 90px; */
+}
+.lu p{
+    font-size: 18px;
+    color: #dfeedb;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+.lu h2{
+    text-align: center;
+    margin-top: 32px;
+    color: #dfeedb;
+    font-weight: lighter;
+}
+
+.trie{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* margin-top: 90px; */
+}
+.lui p{
+    font-size: 18px;
+    color: #dfeedb;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+.lui h2{
+    text-align: center;
+    margin-top: 32px;
+    color: #dfeedb;
+    font-weight: lighter;
+}
+
+.trie{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* margin-top: 90px; */
+}
+.luy p{
+    font-size: 18px;
+    color: #dfeedb;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+.luy h2{
+    text-align: center;
+    margin-top: 32px;
+    color: #dfeedb;
+   font-weight: lighter;
+}
+.trie p{
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+}
+.bi img{
+    margin-top: 10px;
+} 
