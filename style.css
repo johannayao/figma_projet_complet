@@ -136,7 +136,7 @@ body{
 }
 
 .cacher{
-    width: 550px;
+    width: 530px;
     height: 520px;
     background-color: #f4fdf5;
     margin: auto; 
@@ -174,7 +174,7 @@ body{
     
 } 
 .two{
-    width: 310px;
+    width: 300px;
     height: 410px;
     background-color: #5aab4e;
     /* margin-left: 330px;*/
@@ -613,8 +613,8 @@ margin-top: 20px
     background-color: #e9f9e5;
     margin-top: 600px;
     position: relative; 
-    border-top-left-radius: 157px;
-    border-top-right-radius: 357px;
+    /* border-top-left-radius: 157px; */
+    border-radius: 11% 89% 0% 10% / 22% 25% 57% 1%;
 }
 .haut{
     width: 1040px;
